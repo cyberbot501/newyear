@@ -7,7 +7,8 @@ import AnimatedBackground from '@/components/AnimatedBackground'
 import Navbar from '@/components/Navbar'
 import ContactForm from '@/components/ContactForm'
 import YearIntro from '@/components/YearIntro'
-
+import profile from '@/public/profile.jpg'
+  
 export default function Home() {
   const [showIntro, setShowIntro] = useState(true)
 
@@ -49,7 +50,7 @@ export default function Home() {
             >
               <div className="absolute inset-0 shimmer" />
               <Image
-                src="/profile.jpg"
+                src={profile}
                 alt="Akinrinde Joel - Oni Imo Ero Cyberbot501"
                 fill
                 className="object-cover relative z-10"
