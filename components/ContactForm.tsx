@@ -24,7 +24,7 @@ export default function ContactForm() {
       {/* Email Field */}
       <div>
         <label htmlFor="email" className="block text-white font-semibold mb-2 text-yoruba">
-          Imeeli rẹ (Your Email)
+          Imeeli rẹ 
         </label>
         <input
           type="email"
@@ -37,7 +37,7 @@ export default function ContactForm() {
       {/* Message Field */}
       <div>
         <label htmlFor="message" className="block text-white font-semibold mb-2 text-yoruba">
-          Irọrùn rẹ (Your Message)
+          Irọrùn rẹ 
         </label>
         <textarea
 
@@ -52,7 +52,7 @@ export default function ContactForm() {
         type="submit"
         className="w-full py-4 bg-gradient-to-r from-yoruba-gold to-yoruba-orange text-black font-bold text-lg rounded-lg hover-lift hover-glow transition-all animate-border-glow"
       >
-        Fi ran (Send Message)
+        Fi ran 
       </button>
     </form>
   )
