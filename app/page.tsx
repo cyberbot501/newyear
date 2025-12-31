@@ -46,7 +46,7 @@ export default function Home() {
             {/* Profile Image */}
             <div 
               className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-yoruba-gold shadow-2xl animate-bounce-in hover-lift hover-glow animate-border-glow"
-              style={{ animationDelay: '0.2s', opacity: 0 }}
+              style={{ animationDelay: '0.2s' }}
             >
               <div className="absolute inset-0 shimmer" />
               <Image
@@ -63,19 +63,19 @@ export default function Home() {
               {/* New Year Greeting */}
               <h1 
                 className="text-4xl md:text-6xl lg:text-7xl font-bold text-yoruba-gold text-yoruba animate-fade-in-up"
-                style={{ animationDelay: '0.4s', opacity: 0 }}
+                style={{ animationDelay: '0.4s' }}
               >
                 Ọdún Tuntun O!
               </h1>
               <p 
                 className="text-2xl md:text-3xl lg:text-4xl text-white text-yoruba font-semibold animate-slide-in-right"
-                style={{ animationDelay: '0.6s', opacity: 0 }}
+                style={{ animationDelay: '0.6s' }}
               >
                 Káàbọ̀ sí Ọdún 2026
               </p>
 
               {/* Name and Role */}
-              <div className="pt-4 animate-fade-in-up" style={{ animationDelay: '0.8s', opacity: 0 }}>
+              <div className="pt-4 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
                 <p className="text-2xl md:text-3xl text-yoruba-gold font-bold hover-lift inline-block mb-2">
                   Mo jẹ́ Akinrinde Joel
                 </p>
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
 
               {/* Strong Headline - Tech + Yoruba Culture */}
-              <div className="pt-6 animate-fade-in-up" style={{ animationDelay: '1s', opacity: 0 }}>
+              <div className="pt-6 animate-fade-in-up" style={{ animationDelay: '1s' }}>
                 <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-yoruba-gold text-yoruba leading-tight mb-4">
                   Tẹ́knọ́lọ́jì pẹ̀lú àṣà Yorùbá
                 </h2>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
 
               {/* Inspiring Introduction */}
-              <div className="pt-6 animate-slide-in-left" style={{ animationDelay: '1.2s', opacity: 0 }}>
+              <div className="pt-6 animate-slide-in-left" style={{ animationDelay: '1.2s' }}>
                 <p className="text-lg md:text-xl text-white leading-relaxed text-yoruba max-w-2xl">
                   Mo n ṣe ìgbéga ọ̀nà tẹ́knọ́lọ́jì láti fi ìmọ̀ ẹ̀rọ wé àwọn ènìyàn ní oríṣiriṣi àgbáyé. 
                   Nípa fífi àṣà Yorùbá ṣopọ̀ mọ́ ìmọ̀ ẹ̀rọ, mo n ṣe àfihàn bí a ṣe lè fi tẹ́knọ́lọ́jì ṣe ìrànlọ́wọ́ fún àwọn ènìyàn 
@@ -119,30 +119,26 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 
             className="text-3xl md:text-4xl font-bold text-yoruba-gold text-center mb-8 text-yoruba animate-rotate-in hover-spin inline-block"
-            style={{ animationDelay: '0.2s', opacity: 0 }}
+            style={{ animationDelay: '0.2s' }}
           >
             Ki ni mo n se?
           </h2>
           <div className="space-y-6 text-lg md:text-xl text-white leading-relaxed text-yoruba">
             <p 
               className="text-center animate-fade-in-up hover-lift"
-              style={{ animationDelay: '0.4s', opacity: 0 }}
+              style={{ animationDelay: '0.4s' }}
             >
-              Mo je <span className="text-yoruba-gold font-semibold animate-pulse-slow hover-glow inline-block px-2">Developer</span>, <span className="text-yoruba-gold font-semibold animate-pulse-slow hover-glow inline-block px-2" style={{ animationDelay: '0.3s' }}>DevRel</span>, ati <span className="text-yoruba-gold font-semibold animate-pulse-slow hover-glow inline-block px-2" style={{ animationDelay: '0.6s' }}>Oni Imo Ero Eto Igbasilẹ ti Yoruba</span>.
-            </p>
-            <p 
-              className="text-center animate-slide-in-left hover-lift"
-              style={{ animationDelay: '0.6s', opacity: 0 }}
-            >
-              Mo n fi imo mi fun awon ti o n wo mi lati ko nipa Technology, Programming, ati Development. 
-              Mo n ran awon developers ni agbaye lati gbe imo won si oke pẹlu awon aworan mi ti o dun.
-            </p>
-            <p 
-              className="text-center animate-slide-in-right hover-lift"
-              style={{ animationDelay: '0.8s', opacity: 0 }}
-            >
-              Mo n se awon aworan to dara ati awon episodes ti o n ran awon developers ni agbaye, 
-              pẹlu imo to dun ati to ni imo.
+              Àkọsílẹ̀ Kíkún
+
+Mo jẹ́ olùdá àkóónú tẹ́knọ́lọ́jì ní èdè Yorùbá, ẹni tí ń ṣiṣẹ́ takuntakun láti mú ìmọ̀ ẹ̀rọ sunmọ́ àwọn ènìyàn nípasẹ̀ èdè àti àṣà wa. Ìdí tí mo fi bẹ̀rẹ̀ ìrìnàjò yìí ni pé mo rí i dájú pé ààyè ń bẹ láàárín àgbáyé tẹ́knọ́lọ́jì àti àṣà wa gẹ́gẹ́ bí Yorùbá, mo sì bẹ̀rẹ̀ sí í ronú pé báwo la ṣe lè dá ààyè yìí pọ̀?
+<br/><br/>
+Ní ìwádìí àti ìrírí mi, mo rí i pé ohun pàtàkì jùlọ tí ó lè so àṣà àti tẹ́knọ́lọ́jì pọ̀ ni èdè wa. Èdè ni ọ̀nà tí a fi ń rò, tí a fi ń kọ́, tí a sì fi ń kọ́ ìmọ̀ sí ara wa. Ìdí nìyí tí mo fi pinnu láti lo èdè Yorùbá gẹ́gẹ́ bí irinṣẹ́ láti ṣàlàyé ìmọ̀ ẹ̀rọ, kó le jẹ́ pé gbogbo ènìyàn—paapáà jùlọ àwọn tí èdè Gẹ̀ẹ́sì kì í rọrùn fún—lè lóye, kó sì lè rí ara wọn nínú àgbáyé tẹ́knọ́lọ́jì.
+<br/><br/>
+Mo jẹ́ akẹ́kọ̀ọ́ Ẹ̀kọ́ Kọ̀mputa (Computer Science) nípele 500, mo sì tún jẹ́ Frontend Developer tí mo ń ṣiṣẹ́ pẹ̀lú àwọn ẹ̀rọ ìgbàlódé láti kọ́ àwọn ojú-òpó wẹẹbu tí ó dára, tí ó yara, tí ó sì rọrùn láti lò. Ní àfikún sí i, mo jẹ́ Developer Relations (DevRel), ẹni tí ń fẹ́ràn láti kọ́, láti pin ìmọ̀, àti láti dá àwọn àjọṣe àti àgbègbè (communities) sílẹ̀ fún àwọn onímọ̀ ẹ̀rọ àti àwọn tí ń bẹ̀rẹ̀ ìrìnàjò wọn nínú tech.
+<br/><br/>
+Ohun tí mo ń ṣe kì í ṣe fífi ìmọ̀ ẹ̀rọ hàn nìkan, ṣùgbọ́n mo tún ń ṣiṣẹ́ láti dá àyíká kan sílẹ̀ níbi tí àwọn ènìyàn lè kọ́, lè béèrè ìbéèrè, lè dàgbà pọ̀, tí wọ́n sì lè ní ìgboyà pé èdè Yorùbá lè jẹ́ apá kan nínú àṣeyọrí wọn nínú àgbáyé tẹ́knọ́lọ́jì.
+<br/><br/>
+Ìran mi ni láti rí i pé Yorùbá kì í ṣe olùgbọ́ nìkan nínú tech, ṣùgbọ́n pé a tún lè jẹ́ olùdásílẹ̀, olùkọ́, àti adarí nínú rẹ̀—nípasẹ̀ èdè wa, àṣà wa, àti ìmọ̀ wa.
             </p>
           </div>
         </div>
@@ -153,7 +149,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl md:text-4xl font-bold text-yoruba-gold text-center mb-12 text-yoruba animate-fade-in-scale hover-lift inline-block"
-            style={{ animationDelay: '0.2s', opacity: 0 }}
+            style={{ animationDelay: '0.2s' }}
           >
             Awon Aworan mi
           </h2>
@@ -162,7 +158,7 @@ export default function Home() {
             {/* You can add your actual video links here */}
             <div 
               className="bg-black/40 backdrop-blur-sm rounded-lg p-6 border-2 border-yoruba-gold/50 hover:border-yoruba-gold transition-all hover-lift hover-glow animate-fade-in-up group cursor-pointer"
-              style={{ animationDelay: '0.3s', opacity: 0 }}
+              style={{ animationDelay: '0.3s' }}
             >
               <div className="aspect-video bg-yoruba-brown/50 rounded mb-4 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform">
                 <div className="absolute inset-0 shimmer" />
@@ -178,7 +174,7 @@ export default function Home() {
             
             <div 
               className="bg-black/40 backdrop-blur-sm rounded-lg p-6 border-2 border-yoruba-gold/50 hover:border-yoruba-gold transition-all hover-lift hover-glow animate-fade-in-up group cursor-pointer"
-              style={{ animationDelay: '0.5s', opacity: 0 }}
+              style={{ animationDelay: '0.5s' }}
             >
               <div className="aspect-video bg-yoruba-brown/50 rounded mb-4 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform">
                 <div className="absolute inset-0 shimmer" />
@@ -194,7 +190,7 @@ export default function Home() {
 
             <div 
               className="bg-black/40 backdrop-blur-sm rounded-lg p-6 border-2 border-yoruba-gold/50 hover:border-yoruba-gold transition-all hover-lift hover-glow animate-fade-in-up group cursor-pointer"
-              style={{ animationDelay: '0.7s', opacity: 0 }}
+              style={{ animationDelay: '0.7s' }}
             >
               <div className="aspect-video bg-yoruba-brown/50 rounded mb-4 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform">
                 <div className="absolute inset-0 shimmer" />
@@ -216,16 +212,16 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl md:text-4xl font-bold text-yoruba-gold text-center mb-4 text-yoruba animate-bounce-in hover-lift inline-block"
-            style={{ animationDelay: '0.2s', opacity: 0 }}
+            style={{ animationDelay: '0.2s' }}
           >
             Ba mi sọrọ
           </h2>
-          <p className="text-center text-white/80 mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s', opacity: 0 }}>
+          <p className="text-center text-white/80 mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
             Fi irọrùn rẹ ran mi tabi pade mi lori awon ẹrọ ayelujara (Send me a message or reach me on social media)
           </p>
 
           {/* Contact Form */}
-          <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
+          <div className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="max-w-2xl mx-auto bg-black/40 backdrop-blur-sm rounded-xl p-8 md:p-12 border-2 border-yoruba-gold/30 hover:border-yoruba-gold/50 transition-all hover-lift">
               <ContactForm />
             </div>
@@ -233,7 +229,7 @@ export default function Home() {
 
           {/* Social Media Links */}
           <div className="border-t border-yoruba-gold/30 pt-12">
-            <h3 className="text-2xl font-bold text-yoruba-gold text-center mb-8 text-yoruba animate-fade-in-scale" style={{ animationDelay: '0.5s', opacity: 0 }}>
+            <h3 className="text-2xl font-bold text-yoruba-gold text-center mb-8 text-yoruba animate-fade-in-scale" style={{ animationDelay: '0.5s' }}>
               Pade mi lori Awon Ẹrọ Ayelujara (Find me on Social Media)
             </h3>
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
@@ -243,7 +239,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group animate-fade-in-scale"
-                style={{ animationDelay: '0.6s', opacity: 0 }}
+                style={{ animationDelay: '0.6s' }}
               >
                 <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 border-2 border-yoruba-gold/50 hover:border-yoruba-gold transition-all hover-lift hover-glow animate-border-glow">
                   <div className="text-center">
@@ -264,7 +260,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group animate-fade-in-scale"
-                style={{ animationDelay: '0.7s', opacity: 0 }}
+                style={{ animationDelay: '0.7s' }}
               >
                 <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 border-2 border-yoruba-gold/50 hover:border-yoruba-gold transition-all hover-lift hover-glow animate-border-glow">
                   <div className="text-center">
@@ -283,7 +279,7 @@ export default function Home() {
               <Link
                 href="mailto:your.email@example.com"
                 className="group animate-fade-in-scale"
-                style={{ animationDelay: '0.8s', opacity: 0 }}
+                style={{ animationDelay: '0.8s' }}
               >
                 <div className="bg-black/50 backdrop-blur-sm rounded-lg p-8 border-2 border-yoruba-gold/50 hover:border-yoruba-gold transition-all hover-lift hover-glow animate-border-glow">
                   <div className="text-center">
@@ -303,7 +299,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="px-4 py-8 text-center text-white/70 border-t border-yoruba-gold/30 animate-fade-in-up" style={{ animationDelay: '0.3s', opacity: 0 }}>
+      <footer className="px-4 py-8 text-center text-white/70 border-t border-yoruba-gold/30 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
         <p className="text-lg hover-lift inline-block">
           © 2026 Akinrinde Joel (Dev-cyberbot501) - Oni Imo Ero Cyberbot501
         </p>
